@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Composite</OriginalElement>
+  <nodes>
+    <node x="145.25" y="-13.5">Composite.Shape</node>
+    <node x="-90.5" y="270.0">Composite.CompositeShape</node>
+    <node x="172.0" y="154.0">Composite.Rectangle</node>
+    <node x="335.5" y="154.0">Composite.Triangle</node>
+    <node x="255.5" y="294.0">Composite.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Composite.CompositeShape" target="Composite.Shape" relationship="TO_MANY">
+      <point x="-53.25" y="-68.0" />
+      <point x="-37.25" y="98.0" />
+      <point x="175.5" y="98.0" />
+      <point x="-30.25" y="31.5" />
+    </edge>
+    <edge source="Composite.Rectangle" target="Composite.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="30.25" y="31.5" />
+    </edge>
+    <edge source="Composite.Triangle" target="Composite.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="396.0" y="118.0" />
+      <point x="236.0" y="118.0" />
+      <point x="30.25" y="31.5" />
+    </edge>
+    <edge source="Composite.Circle" target="Composite.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-44.0" />
+      <point x="316.0" y="118.0" />
+      <point x="236.0" y="118.0" />
+      <point x="30.25" y="31.5" />
+    </edge>
+    <edge source="Composite.CompositeShape" target="Composite.Shape" relationship="REALIZATION">
+      <point x="53.25" y="-68.0" />
+      <point x="69.25" y="118.0" />
+      <point x="236.0" y="118.0" />
+      <point x="30.25" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="193.0" y="206.0" />
+  <SelectedNodes>
+    <node>Composite.Shape</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
